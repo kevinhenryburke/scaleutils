@@ -1,11 +1,24 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "force-app/main/default",
+            "package": "Scale Utils 01",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "Scale Utils 01": "0HoB0000000CawCKAS",
+        "Scale Utils 01@0.1.0-1": "04tB0000000ORBEIA4",
+        "Scale Utils 01@0.1.0-2": "04tB0000000ORBTIA4",
+        "Scale Utils 01@0.1.0-3": "04tB0000000ORBYIA4"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "47.0"
 }
