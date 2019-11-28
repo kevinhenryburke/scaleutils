@@ -2,14 +2,10 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
-        },
-        {
-            "path": "force-app/main/default",
-            "package": "Scale Utils 01",
+            "package": "ScaleUtils",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false
+            "default": true
         }
     ],
     "namespace": "",
@@ -19,6 +15,8 @@
         "Scale Utils 01": "0HoB0000000CawCKAS",
         "Scale Utils 01@0.1.0-1": "04tB0000000ORBEIA4",
         "Scale Utils 01@0.1.0-2": "04tB0000000ORBTIA4",
-        "Scale Utils 01@0.1.0-3": "04tB0000000ORBYIA4"
+        "Scale Utils 01@0.1.0-3": "04tB0000000ORBYIA4",
+        "ScaleUtils": "0HoB0000000CawRKAS",
+        "ScaleUtils@0.1.0-1": "04tB0000000ORP9IAO"
     }
 }
