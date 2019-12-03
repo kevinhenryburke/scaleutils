@@ -17,6 +17,7 @@ public inherited sharing virtual class Service_Output_Master implements IService
     private long duration;
     private String state = 'SUCCESS';
     private String errorMessage;
+    private String callType = 'REAL';
 
     
 
@@ -34,6 +35,10 @@ public inherited sharing virtual class Service_Output_Master implements IService
 
     public String getState () {
         return state;
+    }
+
+    public String getCallType () {
+        return callType;
     }
 
     public String getErrorMessage () {

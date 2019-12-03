@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProcessingInEnvironment__c</fullName>
+    <defaultValue>&quot;Real&quot;</defaultValue>
+    <description>Determines if processing of this Service is stubbed in the current environment (&quot;Stub&quot;) or is fully operational (&quot;Real&quot;)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Determines if processing of this Service is stubbed in the current environment (&quot;Stub&quot;) or is fully operational (&quot;Real&quot;)</inlineHelpText>
+    <label>Processing In Environment</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stub</fullName>
+                <default>true</default>
+                <label>Stub</label>
+            </value>
+            <value>
+                <fullName>Real</fullName>
+                <default>false</default>
+                <label>Real</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

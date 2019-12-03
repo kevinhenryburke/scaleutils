@@ -16,6 +16,8 @@ global interface IService_Output_Master {
 
     String getErrorMessage ();
 
+    String getCallType ();
+
     void setState (String state);
 
     void setErrorMessage (String errorMessage);
