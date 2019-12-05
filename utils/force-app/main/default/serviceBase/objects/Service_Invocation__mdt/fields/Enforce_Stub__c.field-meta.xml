@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enforce_Stub__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked then the Stub Class is used by the service regardless of any other context logic.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If checked then the Stub Class is used by the service regardless of any other context logic.</inlineHelpText>
+    <label>Enforce Stub</label>
+    <type>Checkbox</type>
+</CustomField>

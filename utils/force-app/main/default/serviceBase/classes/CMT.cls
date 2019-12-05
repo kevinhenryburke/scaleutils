@@ -33,7 +33,7 @@ public inherited sharing class CMT {
                 Log_Requests__c, 
                 Service__c, 
                 Stub_Class__c,
-                Test_Class__c,
+                Enforce_Stub__c,
                 Async_Platform_Event__c,
                 Service_Version__c,
                 Expect_Response__c,

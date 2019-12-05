@@ -38,8 +38,11 @@ public inherited sharing class Service implements Callable {
         public String invocationType;
         public Id userId;
         public boolean logRequests;
+        public boolean expectResponse;
         public String serviceInvocationName;
         public String stubClass;
+        public String asyncPlatformEvent;
+        public boolean enforceStub;
 
         // add in a testVersion so that services can provide stub data??
 

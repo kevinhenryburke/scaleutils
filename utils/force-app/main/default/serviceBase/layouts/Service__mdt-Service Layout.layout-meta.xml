@@ -24,11 +24,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>ProcessingInEnvironment__c</field>
+                <field>Service_Type__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Service_Type__c</field>
+                <field>Active_in_Org__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

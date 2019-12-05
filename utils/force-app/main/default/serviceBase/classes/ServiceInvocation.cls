@@ -26,7 +26,12 @@ public inherited sharing class ServiceInvocation {
     }
 
     // A generic Service Invocation Method. 
-    public Object invoke(Map<String,Object> args) {
+
+    public Object invoke(IService_Input_Master isim) {
+        return this.invoke(isim.getArgs());
+    }
+
+    private Object invoke(Map<String,Object> args) {
 
         IService_Output_Master isom = null;
 
@@ -40,6 +45,11 @@ public inherited sharing class ServiceInvocation {
         sad.logRequests = meta.Log_Requests__c;
         sad.ServiceInvocationName = meta.DeveloperName;
         sad.stubClass = meta.Stub_Class__c;
+        sad.expectResponse = meta.Expect_Response__c;
+        sad.asyncPlatformEvent = meta.Async_Platform_Event__c;
+        sad.enforceStub = meta.Enforce_Stub__c;
+
+        // TODO Need to apply any invocation overrides here.
 
         String strActionDefinition = sad.serialize();
 
